@@ -83,9 +83,9 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Users usersData = dataSnapshot.child("Users").child(username).getValue(Users.class);
 
-                    if (usersData.getInputUsername().equals(username))
+                    if (usersData.getName().equals(username))
                     {
-                        if (usersData.getInputPassword().equals(password))
+                        if (usersData.getPassword().equals(password))
                         {
                             Toast.makeText(MainActivity.this, "Please wait, you are already logged in...", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();

@@ -1,38 +1,62 @@
 package com.example.pempekyuk.Model;
 
-public class Users {
-    private String InputUsername, InputEmail, InputPassword;
-    public Users(){
+
+public class Users
+{
+    private String username, email, password, image, address;
+
+    public Users()
+    {
 
     }
 
-    public Users(String username,String email,String password){
-        this.InputUsername = username;
-        this.InputEmail = email;
-        this.InputPassword = password;
+    public Users(String username, String email, String password, String image, String address) {
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.image = image;
+        this.address = address;
     }
 
-    public String getInputUsername() {
-        return InputUsername;
+
+    public String getName() {
+        return username;
     }
 
-    public String getInputEmail() {
-        return InputEmail;
+    public void setName(String name) {
+        this.username = name;
     }
 
-    public String getInputPassword() {
-        return InputPassword;
+    public String getEmail() {
+        return email;
     }
 
-    public void setInputUsername(String inputUsername) {
-        InputUsername = inputUsername;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public void setInputEmail(String inputEmail) {
-        InputEmail = inputEmail;
+    public String getPassword() {
+        return password;
     }
 
-    public void setInputPassword(String inputPassword) {
-        InputPassword = inputPassword;
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
+
