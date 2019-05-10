@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PempekYuk</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">Login</string>
+    <string name="i_m_an_admin">I\'m an Admin?</string>
+    <string name="i_m_not_an_admin">I\'m not an Admin?</string>
+    <string name="find_discover_choose_and_buy_anything_online">Find, Discover, Choose and Buy anything online.</string>
+    <string name="already_have_an_account_login">Already have an Account? Login</string>
+    <string name="join_now">Join Now</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+</resources>
